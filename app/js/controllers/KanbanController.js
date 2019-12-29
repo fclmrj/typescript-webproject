@@ -14,7 +14,7 @@ System.register(["../model/index"], function (exports_1, context_1) {
                     // Write TypeScript code!
                     const appDiv = document.getElementById('app');
                     appDiv.innerHTML = `<h2>TypeScript Starter</h2>
-                        <h1>See console for genereted object</h1>`;
+                        <h1>See console for generated object</h1>`;
                     console.log(new index_1.History(new Date(), '', '', 8, new index_1.Task('', '', 8)));
                     /*document
                     .querySelector('.form')
